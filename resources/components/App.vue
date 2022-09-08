@@ -16,8 +16,18 @@
     }
 </script>
 <template>
-    <clients-select ref="clients"></clients-select>
-    <button @click="search">Cargar info</button>
-    <leasing-table ref="leasings"></leasing-table>
+    <div class="row mt-5">
+        <div class="col-12"><h2>Alquiler por clientes</h2></div>
+        <div class="col-4">
+            <clients-select ref="clients"></clients-select>  
+            <button class="btn btn-primary" @click="search">Consultar info</button>          
+        </div>
+    </div>
+    
+    <div class="row mt-5">
+        <div class="col">
+            <leasing-table ref="leasings"></leasing-table>
+        </div>
+    </div>
 </template>
 

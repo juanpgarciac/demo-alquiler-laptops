@@ -31,7 +31,7 @@
     }
 </script>
 <template>
-    <table border="1">
+    <table class="table table-striped">
         <thead>
             <tr>
                 <td>Código</td>
