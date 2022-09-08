@@ -4,7 +4,7 @@
         data()
         {
             return {
-                selectedIds: null,
+                selectedIds: [],
                 clients: [],
             }
             

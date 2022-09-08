@@ -1,7 +1,6 @@
 <script>
     
     export default {
-        props:['clientIds'],
         data()
         {
             return {
@@ -31,6 +30,7 @@
     }
 </script>
 <template>
+    <h4>Listado de equipos alquilados</h4>
     <table class="table table-striped">
         <thead>
             <tr>

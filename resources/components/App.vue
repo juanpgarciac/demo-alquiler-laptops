@@ -6,6 +6,11 @@
             ClientsSelect,
             LeasingTable
         },
+        data(){
+            return {
+                currentClients:[]
+            }
+        },
         methods: {
             search()
             {
@@ -20,7 +25,9 @@
         <div class="col-12"><h2>Alquiler por clientes</h2></div>
         <div class="col-4">
             <clients-select ref="clients"></clients-select>  
-            <button class="btn btn-primary" @click="search">Consultar info</button>          
+            <small>CTRL + Click para seleccionar mas de un cliente</small><br>
+            <button class="btn btn-primary mt-3" @click="search">Consultar info</button>  
+            
         </div>
     </div>
     
